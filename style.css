@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Cormorant+Garamond:wght@300;700&family=Fraunces:wght@900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    background-image: url(images/desktop/image-header.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position:bottom;  
+    background-size:  cover;
+ }
+
+#hamburger{
+display: none;
+    
+}
+
+nav{
+    display: flex;
+    padding: 2%;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+
+}
+ 
+ul li {
+list-style: none;
+color: white;
+padding-left: 100px;
+font-family: sans-serif;
+}
+
+button{
+    color: black;
+    height: 40px;
+    text-align: center;
+    background-color: white;
+ border-radius: 30%;
+ border: 1px solid white;
+}
+
+.centerDiv{
+
+    display: flex;
+    justify-content: center;
+ flex-direction: column;
+ text-align: center;
+ margin-top: 160px;
+ 
+}
+
+h1{
+    font-family: 'Fraunces', serif;
+
+    color: white;
+    text-transform: uppercase; 
+    font-size: large;
+    font-size: 50px;
+font-weight: 900;
+}
+
+.img-arrow
+{
+    align-self: center;
+    margin-top: 100Px;
+ 
+    width: 50px;
+}
+ 
+section{
+    display: flex;
+    height: 70vh;
+}
+
+h2{
+    width: 100%;
+}
+        
+
+section  div { 
+display: flex;
+flex-direction: column;
+justify-content: center;
+ 
+align-items: center;
+gap: 9%; 
+align-items: flex-start;
+flex-wrap: wrap;
+padding: 2.5%;
+width: 45%;
+
+} 
+ 
+
+section  div   p  { 
+    text-align: left;
+    color: black;
+    } 
+    
+    
+    
+
+section  div  a {
+    align-self: flex-start;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    z-index: 1;
+    /* padding-left: 15%; */
+    font-size: larger;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+ .tiret{
+    position: absolute;
+    border: 2px solid yellow;
+    width: 120px;
+    bottom: 1px;
+    z-index: -1;
+    filter: blur(3px);
+    } 
+section > div > h2{
+    font-size: 60Px;
+ 
+}
+
+ 
+section > img{
+    width: 50%;
+    max-width: 100%;
+    
+}     
+
+
+
+aside{    display: flex;
+    height: 70vh;
+
+}
+
+
+                                                                                                           
+.Troiseme_sec{
+    background-image: url(images/desktop/image-graphic-design.jpg);
+    background-repeat: no-repeat;     
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+ align-content: center;
+ justify-content: flex-end;
+
+} 
+.Troiseme_sec h2,p {
+width: 50%;
+text-align: center;
+}
+.Troiseme_sec h2,p
+{
+      color:  hsl(167, 40%, 24%)
+       
+}
+.Troiseme_sec2{
+
+    background-image: url(images/desktop/image-photography.jpg);
+ background-repeat: no-repeat;      
+ background-size: cover;
+ display: flex;
+ flex-direction: column;
+align-content: center;
+ justify-content: flex-end;
+}
+.Troiseme_sec2 > h2,p {
+
+    color:hsl(198, 62%, 26%) ;
+}
+.Troiseme_sec2 h2,p {
+    width: 50%;
+    text-align: center;
+    }
+      
+    #ClienH2{
+        display: flex;
+        justify-content: center;
+        margin:  10% 0% 0% 0% ;
+        color: grey;
+        text-transform: uppercase;
+        font-family: 'Times New Roman';
+        font-weight:  900;
+        
+        }
+ 
+article{
+    display: flex;
+ 
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    gap: 0px;
+ padding: 5%;
+}
+
+article >div > img {
+
+    width: 18%;
+    border-radius: 50%;
+ 
+align-self: center;
+}
+article > div {
+ 
+    display: flex;
+flex-direction: column;
+ align-items: center;
+ 
+}
+
+article > div> p,h6 {
+   color: grey;
+   font-size: 20px;
+    width: 75%;
+}
+ 
+article > div>h4 {
+ 
+    font-size: 25px;}
+
+
+article > div> p,h4,h6 {
+ margin-top: 20px;
+ 
+}
+ 
+
+.images_division > img
+{
+width: 25%;
+margin-top: 15%;
+}
+
+.images_division
+{
+    display: flex;
+} 
+
+footer{
+    background-color:  hsl(168, 57%, 59%);
+ 
+    background-repeat: no-repeat;
+    background-position:bottom;  
+ background-size:  cover;  
+height: 20%;
+}
+
+footer > nav{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+
+
+gap: 70px;
+}
+footer > nav > ul > li {
+    font-size:20px;
+    font-weight: 500;
+    font-family: sans-serif;
+      color:  hsl(167, 40%, 24%)
+}
+
+
+.LinksOfFints > i
+{
+
+    padding-left: 20px;
+}
+
+
+ 

@@ -1,0 +1,162 @@
+ /* @media only screen and (min-width: 600px) { */
+ @media(width < 375px) {
+
+
+     * {
+         padding: 0;
+         margin: 0;
+     }
+
+     nav>div img {
+         padding: 8px;
+     }
+
+     #hamburger>span {
+         content: " ";
+         width: 25px;
+         height: 2px;
+         background-color: rgb(240, 240, 240);
+
+     } 
+     #hamburger {
+
+         display: flex;
+         padding: 11px;
+         width: 100%;
+         height: 100%;
+         flex-direction: column;
+         /* justify-content: flex-end; */
+         align-items: flex-end;
+         gap: 4px;
+
+     }
+
+     .hamburger {
+
+         display: none; 
+     }
+
+
+
+     .displayClass {
+         display: none;
+     }
+
+
+     .centerDiv h1 {
+         font-size: 30px;
+     }
+
+     header ul {
+         flex-direction: column;
+         background-color: white;
+         position: fixed;
+         top: 10%;
+         width: 85%;
+         gap: 12%;
+         justify-content: center;
+         align-items: center;
+         margin: auto 3%;
+         padding-top: 20%;
+         padding-bottom: 20%; 
+     }
+
+     ul>li {
+         color: black;
+         padding: 25px;
+         text-align: center;
+         width: 50%;
+     }
+
+     ul>li:hover {
+         background-color: yellow;
+         border-radius: 30px 30px 30px 30px;
+         border: 1px solid yellow;
+
+     }
+
+     header {
+         background-image: url(images/mobile/image-header.jpg);
+     }
+
+     section>div>h2 {
+         font-size: 25Px;
+     }
+
+     section {
+         flex-direction: column-reverse;
+ 
+     }
+
+     section div a {
+         width: 50%;
+         font-size: medium;
+
+     }
+
+     .tiret {
+         border: none;
+         border-bottom: 2px solid yellow;
+         bottom: 0;
+         left: 20px;
+         width: 70%;
+     }
+
+     .section_Deuxieme {
+         flex-direction: column;
+     }
+
+     section {}
+
+     section div {
+         display: flex;
+         height: 56vh;
+         flex-direction: row;
+         width: 95%;
+         align-items: center;
+         text-align: center;
+
+     }
+
+     section div p {
+         width: 80%;
+         text-align: center;
+         color: grey;
+     }
+
+     section>img {
+         width: 100vw;
+
+     }
+
+
+
+
+     article {
+         flex-direction: column;
+
+     }
+
+
+     article>div {
+
+         padding-top: 61px;
+     }
+
+     .images_division {
+         flex-wrap: wrap;
+
+     }
+
+     .images_division>img {
+         width: 50%;
+         margin-top: 0;
+     }
+
+     footer ul li {
+         padding-left: 22px;
+     }
+
+
+
+ }
